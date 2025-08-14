@@ -58,7 +58,7 @@ const contactReducer = (state, action) => {
 
 const ContactContext = createContext();
 
-// Change this to your actual API endpoint
+
 const API_BASE_URL = 'https://playground.4geeks.com/contact/agendas/tyronecopelandjr';
 
 export const ContactProvider = ({ children }) => {
